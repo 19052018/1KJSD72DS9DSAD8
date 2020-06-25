@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <title>360 Trường ĐH Kinh tế Luật - UEL 360 by Việt Panorama</title>
+    <link rel="icon" href="img/logos/logo-company-mini.png">
+    <meta name="description" content="Trường Đại học Kinh tế Luật, Việt Panorama, dự án VR Tour 360 tham quan toàn cảnh trường UEL 360. Không gian học tập và môi trường tốt cho các bạn sinh viên">
+    <meta name="author" content="Việt Panorama">
+    <meta charset="utf-8">
+    <meta itemprop="url" content="https://vietpano.com/dai-hoc-kinh-te-luat-360-vrtour">
+    <link rel="alternate" href="https://vietpano.com/dai-hoc-kinh-te-luat-360-vrtour" hreflang="vi-vn">
+    <meta property="og:locale" content="vi_VN">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="360 Trường ĐH Kinh tế Luật - UEL 360 by Việt Panorama">
+    <meta property="og:description" content="Khám phá mọi ngóc ngách trường Đại học Kinh tế luật từ phòng học cho đến canteen, phòng lab. UEL 360 VR tour dự án bởi Việt Panorama">
+    <meta property="og:site_name" content="vietpano.com">
+    <meta property="article:publisher" content="https://www.facebook.com/vietpano/">
+    <meta property="article:tag" content="Đại học Kinh tế Luật 360">
+    <meta property="article:tag" content="Không gian học tập trường đại học 360 Kinh tế luật">
+    <meta property="article:tag" content="Đại học Kinh tế luật">
+    <meta property="article:tag" content="Virtual Tour 360 UEL">
+    <meta property="article:section" content="Việt Panorama">
+    <meta property="og:image" content="https://vietpano.com/dai-hoc-kinh-te-luat-360-vrtour/img/label.jpg">
+    <meta property="og:image:secure_url" content="https://vietpano.com/dai-hoc-kinh-te-luat-360-vrtour/img/label.jpg">
+    <meta property="og:image:width" content="660">
+    <meta property="og:image:height" content="414">
+    <meta name="keywords" content="trường đại học đẹp, 360 trường đại học, 360 uel, uit, ueh, ussh, 360 kinh tế luật">
+    <meta name="news_keywords" content="360 trường đại học, 360 ussh, 360 nhân văn, 360 uit, 360 ktx, làng đại học">
+    <meta name="author" content="Việt Panorama">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta id="viewport" name="viewport" content="target-densitydpi=device-dpi, width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui">
+    <style>
+        @-ms-viewport {
+        width: device-width;
+    }
+    </style>
+    <style>
+        /* width */
+
+    ::-webkit-scrollbar {
+        width: 15px;
+    }
+    /* Track */
+
+    ::-webkit-scrollbar-track {
+        background: #f1f1f1;
+    }
+    /* Handle */
+
+    ::-webkit-scrollbar-thumb {
+        background: #888;
+    }
+    /* Handle on hover */
+
+    ::-webkit-scrollbar-thumb:hover {
+        background: #555;
+    }
+    </style>
+    <link rel="stylesheet" href="vendor/reset.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/tooltip.min.css">
+    <link rel="stylesheet" href="css/preloader.css">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+    <script type="text/javascript" src="./dist/jquery.imagemapster.min.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-119013536-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-119013536-1');
+    </script>
+</head>
+
+<body class="multiple-scenes view-control-buttons">
+    <!--CSS Spinner-->
+    <div class="spinner-wrapper">
+        <div class="sk-cube-grid">
+            <div class="sk-cube sk-cube1"></div>
+            <div class="sk-cube sk-cube2"></div>
+            <div class="sk-cube sk-cube3"></div>
+            <div class="sk-cube sk-cube4"></div>
+            <div class="sk-cube sk-cube5"></div>
+            <div class="sk-cube sk-cube6"></div>
+            <div class="sk-cube sk-cube7"></div>
+            <div class="sk-cube sk-cube8"></div>
+            <div class="sk-cube sk-cube9"></div>
+        </div>
+    </div>
+    <script>
+        $(document).ready(function() {
+        /*Preloader*/
+        $(window).load(function() {
+            preloaderFadeOutTime = 500;
+
+            function hidePreloader() {
+                var preloader = $('.spinner-wrapper');
+                var preloaderFadeout = preloader.fadeOut(preloaderFadeOutTime);
+                setTimeout(preloaderFadeout, 4000);
+            }
+            hidePreloader();
+        });
+    });
+    </script>
+    <div id="pano"></div>
+    <div id="sceneList">
+        <ul class="scenes">
+            <a href="javascript:void(0)" class="scene" data-id="0-1-cong-chinh-uel">
+                <li class="text">Cổng chính Đại học Kinh tế luật</li>
+            </a>
+            <a href="javascript:void(0)" class="scene" data-id="1-2-cot-co1">
+                <li class="text">Cột cờ</li>
+            </a>
+            <a href="javascript:void(0)" class="scene" data-id="2-3-sanh-nha-a">
+                <li class="text">Sảnh nhà A</li>
+            </a>
+            <a href="javascript:void(0)" class="scene" data-id="3-4-vuon-tri-thuc">
+                <li class="text">Vườn tri thức</li>
+            </a>
+            <a href="javascript:void(0)" class="scene" data-id="4-5-loi-di-vuon-tri-thuc">
+                <li class="text">Lối đi vườn tri thức</li>
+            </a>
+            <a href="javascript:void(0)" class="scene" data-id="5-6-truoc-bai-giu-xe">
+                <li class="text">Trước bãi giữ xe</li>
+            </a>
+            <a href="javascript:void(0)" class="scene" data-id="6-7-truoc-canteen">
+                <li class="text">Trước canteen</li>
+            </a>
+            <a href="javascript:void(0)" class="scene" data-id="7-8-canteen">
+                <li class="text">Canteen</li>
+            </a>
+            <a href="javascript:void(0)" class="scene" data-id="8-9-loi-di-vao-truong">
+                <li class="text">Lối đi vào trường</li>
+            </a>
+            <a href="javascript:void(0)" class="scene" data-id="9-10-cong-sau">
+                <li class="text">Cổng sau</li>
+            </a>
+            <a href="javascript:void(0)" class="scene" data-id="10-11-duong-hoc-the-duc-done">
+                <li class="text">Đường học thể dục</li>
+            </a>
+            <a href="javascript:void(0)" class="scene" data-id="11-12-ho-khu-b">
+                <li class="text">Hồ khu B</li>
+            </a>
+            <a href="javascript:void(0)" class="scene" data-id="12-13-khu-tu-hoc">
+                <li class="text">Khu tự học</li>
+            </a>
+            <a href="javascript:void(0)" class="scene" data-id="13-14-tang-1-nha-a">
+                <li class="text">Tầng 1 nhà A</li>
+            </a>
+            <a href="javascript:void(0)" class="scene" data-id="14-15-ben-ngoai-hoi-truong-a">
+                <li class="text">Bên ngoài hội trường A</li>
+            </a>
+            <a href="javascript:void(0)" class="scene" data-id="15-15-hoi-truong-a">
+                <li class="text">Hội trường A</li>
+            </a>
+            <a href="javascript:void(0)" class="scene" data-id="16-16-tang-2-nha-a">
+                <li class="text">Tầng 2 nhà A</li>
+            </a>
+            <a href="javascript:void(0)" class="scene" data-id="17-17-thu-vien-lau-2">
+                <li class="text">Thư viện lầu 2</li>
+            </a>
+            <a href="javascript:void(0)" class="scene" data-id="18-18-tang-4-nha-a">
+                <li class="text">Tầng 4 nhà A</li>
+            </a>
+            <a href="javascript:void(0)" class="scene" data-id="19-19-tang-4-phong-hoc-rong">
+                <li class="text">Tầng 4 Phòng học rộng</li>
+            </a>
+            <a href="javascript:void(0)" class="scene" data-id="20-20-tang-7-nha-a">
+                <li class="text">Tầng 7 nhà A</li>
+            </a>
+            <a href="javascript:void(0)" class="scene" data-id="21-21-tang-7-bi-lab">
+                <li class="text">Tầng 7 BI Lab</li>
+            </a>
+            <a href="javascript:void(0)" class="scene" data-id="22-22-tang-7-phong-may-thuc-hanh">
+                <li class="text">Tầng 7 Phòng thực hành</li>
+            </a>
+            <a href="javascript:void(0)" class="scene" data-id="23-23-tang-7-phong-hoc-cdio">
+                <li class="text">Tầng 7 Phòng CDIO</li>
+            </a>
+            <a href="javascript:void(0)" class="scene" data-id="24-24-tang-8-nha-a">
+                <li class="text">Tầng 8 nhà A</li>
+            </a>
+            <a href="javascript:void(0)" class="scene" data-id="25-25-tang-8-trung-tam-nghien-cuu-tai-chinh">
+                <li class="text">Trung tâm nghiên cứu tài chính tầng 8</li>
+            </a>
+            <a href="javascript:void(0)" class="scene" data-id="26-26-tang-8-phong-hoc-hoa-sen">
+                <li class="text">Tầng 8 Phòng học Hoa Sen</li>
+            </a>
+            <a href="javascript:void(0)" class="scene" data-id="27-27-cau-noi-nha-a-b">
+                <li class="text">Câu nối nhà A-B</li>
+            </a>
+            <a href="javascript:void(0)" class="scene" data-id="28-28-cau-noi-nha-a-b-2">
+                <li class="text">Câu nối nhà A-B 2</li>
+            </a>
+            <a href="javascript:void(0)" class="scene" data-id="29-29-hanh-lang-nha-b">
+                <li class="text">Hành lang nhà B</li>
+            </a>
+            <a href="javascript:void(0)" class="scene" data-id="30-30-nha-b-lop-hoc-chat-luong-cao">
+                <li class="text">Nhà B Phòng học CLC</li>
+            </a>
+            <a href="javascript:void(0)" class="scene" data-id="31-31-nha-b-lop-hoc-chat-luong-cao-2">
+                <li class="text">Nhà B Phòng học CLC 2</li>
+            </a>
+            <a href="javascript:void(0)" class="scene" data-id="32-32-tang-5-nha-b">
+                <li class="text">Tầng 5 nhà B</li>
+            </a>
+            <a href="javascript:void(0)" class="scene" data-id="33-33-nha-b-lop-hoc-chat-luong-cao-3">
+                <li class="text">Nhà B Phòng học CLC 3</li>
+            </a>
+            <a href="javascript:void(0)" class="scene" data-id="34-34-sanh-nha-b">
+                <li class="text">Sảnh nhà B</li>
+            </a>
+        </ul>
+    </div>
+    <a id="logoCompanyMini" href="https://vietpano.com/">
+        <img id="logoCompany" src="img/logos/logo-company-mini.png" alt="https://vietpano.com">
+    </a>
+    <a href="#" id="sceneListToggle">
+        <img class="icon off" src="img/expand.png">
+        <img class="icon on" src="img/collapse.png">
+    </a>
+    <div id="titleBar">
+        <h1 class="sceneName">360 Đại học Kinh tế Luật, 360 UEL Vr tour 360></h1>
+    </div>
+    <a href="#" id="musicToggle">
+        <img class="icon off" src="img/play-music.png">
+        <img class="icon on" src="img/pause-music.png">
+    </a>
+    <a href="#" id="autorotateToggle">
+        <img class="icon off" src="img/play.png">
+        <img class="icon on" src="img/pause.png">
+    </a>
+    <a href="#" id="fullscreenToggle">
+        <img class="icon off" src="img/fullscreen.png">
+        <img class="icon on" src="img/windowed.png">
+    </a>
+    <a href="#" id="viewUp" class="viewControlButton viewControlButton-1">
+        <img class="icon" src="img/up.png">
+    </a>
+    <a href="#" id="viewDown" class="viewControlButton viewControlButton-2">
+        <img class="icon" src="img/down.png">
+    </a>
+    <a href="#" id="viewLeft" class="viewControlButton viewControlButton-3">
+        <img class="icon" src="img/left.png">
+    </a>
+    <a href="#" id="viewRight" class="viewControlButton viewControlButton-4">
+        <img class="icon" src="img/right.png">
+    </a>
+    <a href="#" id="viewIn" class="viewControlButton viewControlButton-5">
+        <img class="icon" src="img/plus.png">
+    </a>
+    <a href="#" id="viewOut" class="viewControlButton viewControlButton-6">
+        <img class="icon" src="img/minus.png">
+    </a>
+    <audio id="musicbg" autoplay="true" preload="none" loop="true">
+        <source src="./music/backgroundaudio.mp3" type="audio/mp3">
+    </audio>
+    </script>
+    <script src="vendor/es5-shim.js"></script>
+    <script src="vendor/eventShim.js"></script>
+    <script src="vendor/classList.js"></script>
+    <script src="vendor/requestAnimationFrame.js"></script>
+    <script src="vendor/screenfull.min.js"></script>
+    <script src="vendor/bowser.min.js"></script>
+    <script src="vendor/marzipano.js"></script>
+    <script src="js/data.min.js"></script>
+    <script src="js/index.min.js"></script>
+</body>
+
+</html>

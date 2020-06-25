@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: http://vietpano.com/sitemap.xml
